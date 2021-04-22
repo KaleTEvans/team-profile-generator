@@ -1,0 +1,37 @@
+h1 {
+    padding: 40px;
+    background-color: aquamarine;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+}
+
+.employees {
+    margin: 150px;
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card {
+    margin: 25px;
+    background-color: darkgrey;
+}
+
+.name {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    background-color: coral;
+    font-weight: bold;
+}
+
+.title {
+    background-color: coral;
+}
