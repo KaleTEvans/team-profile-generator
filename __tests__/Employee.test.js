@@ -13,6 +13,8 @@ const Employee = require('../lib/Employee');
 
 test('creates an employee object', () => {
     const employee = new Employee('Mike');
+    employee.id = 24;
+    employee.email = 'mike@gmail.com';
 
     expect(employee.name).toBe('Mike');
     expect(employee.id).toEqual(expect.any(Number));
@@ -27,12 +29,14 @@ test('gets employee name', () => {
 
 test('gets employee id number', () => {
     const employee = new Employee('Mike');
+    employee.id = 24;
 
     expect(employee.getId()).toEqual(expect.any(Number));
 });
 
 test('gets employee email', () => {
     const employee = new Employee('Mike');
+    employee.email = 'mike@gmail.com';
 
     expect(employee.getEmail()).toEqual(expect.any(String));
 });

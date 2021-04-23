@@ -3,6 +3,9 @@ const Intern = require('../lib/Intern');
 
 test('creates a intern object', () => {
     const intern = new Intern('Mike');
+    intern.id = 3;
+    intern.email = 'mike@gmail.com';
+    intern.school = 'University of Texas';
 
     expect(intern.name).toBe('Mike');
     expect(intern.id).toEqual(expect.any(Number));
@@ -12,6 +15,7 @@ test('creates a intern object', () => {
 
 test('get the school of the intern', () => {
     const intern = new Intern('Mike');
+    intern.school = 'University of Texas';
 
     expect(intern.getSchool()).toEqual(expect.any(String));
 });

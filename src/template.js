@@ -72,4 +72,4 @@ const generatePage = templateData => {
     `);
 }
 
-module.exports = { generateCards,  generatePage };
+module.exports = { generatePage };
