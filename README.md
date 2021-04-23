@@ -1,7 +1,7 @@
 # Team Profile Generator
 
 ## Purpose
-An application to allow a user to input employee data and generate an html page with all of the employees and thir contact information displayed
+An application to allow a user to input employee data and generate an html page with all of the employees and their contact information displayed
 
 ## Built With
 * HTML
